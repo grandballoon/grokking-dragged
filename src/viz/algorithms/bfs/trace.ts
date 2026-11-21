@@ -6,7 +6,7 @@
  * set. The port runs the same statements in the same order and records a
  * frame at each one.
  */
-import source from "@repo/python-master/06/01_breadth-first_search.py?raw";
+import source from "@sources/python-master/06/01_breadth-first_search.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 

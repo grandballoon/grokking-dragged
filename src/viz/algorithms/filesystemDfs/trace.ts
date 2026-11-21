@@ -8,7 +8,7 @@
  * `for` loop walks (`sorted(listdir(dir))`), and its locals.
  */
 import { pyRepr } from "../../../core/python";
-import source from "@repo/python-master/07/01_filesystem_dfs.py?raw";
+import source from "@sources/python-master/07/01_filesystem_dfs.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 import { BOOK_TREE, isfile, join, listdir, ROOT, type Tree } from "./fs";

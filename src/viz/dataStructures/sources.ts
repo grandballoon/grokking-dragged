@@ -3,23 +3,23 @@
  * structures are built on others (a Stack on a SinglyLinkedList, a Graph on a
  * Queue and a Stack), so a trace can step into any of these files.
  */
-import arrayCore from "@repo/grokking_data_structures-main/python/arrays/core.py?raw";
-import dynamicArray from "@repo/grokking_data_structures-main/python/arrays/dynamic_array.py?raw";
-import sortedArray from "@repo/grokking_data_structures-main/python/arrays/sorted_array.py?raw";
-import unsortedArray from "@repo/grokking_data_structures-main/python/arrays/unsorted_array.py?raw";
-import bag from "@repo/grokking_data_structures-main/python/bags/bag.py?raw";
-import hashTable from "@repo/grokking_data_structures-main/python/dictionaries/hash_table.py?raw";
-import graph from "@repo/grokking_data_structures-main/python/graphs/graph.py?raw";
-import kLargest from "@repo/grokking_data_structures-main/python/k_largest_elements.py?raw";
-import doublyLinkedList from "@repo/grokking_data_structures-main/python/linked_lists/doubly_linked_list.py?raw";
-import singlyLinkedList from "@repo/grokking_data_structures-main/python/linked_lists/singly_linked_list.py?raw";
-import sortedSinglyLinkedList from "@repo/grokking_data_structures-main/python/linked_lists/sorted_singly_linked_list.py?raw";
-import heap from "@repo/grokking_data_structures-main/python/queues/heap.py?raw";
-import queue from "@repo/grokking_data_structures-main/python/queues/queue.py?raw";
-import queueLinkedList from "@repo/grokking_data_structures-main/python/queues/queue_linked_list.py?raw";
-import stack from "@repo/grokking_data_structures-main/python/stacks/stack.py?raw";
-import stackDynamicArray from "@repo/grokking_data_structures-main/python/stacks/stack_dynamic_array.py?raw";
-import bst from "@repo/grokking_data_structures-main/python/trees/bst.py?raw";
+import arrayCore from "@sources/grokking_data_structures-main/python/arrays/core.py?raw";
+import dynamicArray from "@sources/grokking_data_structures-main/python/arrays/dynamic_array.py?raw";
+import sortedArray from "@sources/grokking_data_structures-main/python/arrays/sorted_array.py?raw";
+import unsortedArray from "@sources/grokking_data_structures-main/python/arrays/unsorted_array.py?raw";
+import bag from "@sources/grokking_data_structures-main/python/bags/bag.py?raw";
+import hashTable from "@sources/grokking_data_structures-main/python/dictionaries/hash_table.py?raw";
+import graph from "@sources/grokking_data_structures-main/python/graphs/graph.py?raw";
+import kLargest from "@sources/grokking_data_structures-main/python/k_largest_elements.py?raw";
+import doublyLinkedList from "@sources/grokking_data_structures-main/python/linked_lists/doubly_linked_list.py?raw";
+import singlyLinkedList from "@sources/grokking_data_structures-main/python/linked_lists/singly_linked_list.py?raw";
+import sortedSinglyLinkedList from "@sources/grokking_data_structures-main/python/linked_lists/sorted_singly_linked_list.py?raw";
+import heap from "@sources/grokking_data_structures-main/python/queues/heap.py?raw";
+import queue from "@sources/grokking_data_structures-main/python/queues/queue.py?raw";
+import queueLinkedList from "@sources/grokking_data_structures-main/python/queues/queue_linked_list.py?raw";
+import stack from "@sources/grokking_data_structures-main/python/stacks/stack.py?raw";
+import stackDynamicArray from "@sources/grokking_data_structures-main/python/stacks/stack_dynamic_array.py?raw";
+import bst from "@sources/grokking_data_structures-main/python/trees/bst.py?raw";
 import { pythonSource } from "../../core/pythonSource";
 
 const ROOT = "grokking_data_structures-main/python";

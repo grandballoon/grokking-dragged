@@ -8,7 +8,7 @@
  * The file defines `sum_array` but never calls it, so this page calls it on
  * an input list of its own (`[2, 4, 6]` to start with, the book's example).
  */
-import source from "@repo/python-master/03/07_sum_array.py?raw";
+import source from "@sources/python-master/03/07_sum_array.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 import type { Known } from "../kit/linearCalls";

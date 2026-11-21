@@ -6,7 +6,7 @@
  * calls are entries on `stack` (outermost first), each with its Python
  * locals; both hold the same `arr` list, which the snapshots keep shared.
  */
-import source from "@repo/python-master/02/01_selection_sort.py?raw";
+import source from "@sources/python-master/02/01_selection_sort.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 import type { Known } from "../kit/linearCalls";

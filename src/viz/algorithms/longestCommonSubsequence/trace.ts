@@ -7,7 +7,7 @@
  * `pyIndex`, so it wraps exactly as Python does, and `readsAt` (in `dpTable/dp.ts`)
  * reports which cells an assignment read so the drawing can show the wrap.
  */
-import source from "@repo/python-master/11/01_longest_common_subsequence.py?raw";
+import source from "@sources/python-master/11/01_longest_common_subsequence.py?raw";
 import { pyIndex } from "../../../core/python";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";

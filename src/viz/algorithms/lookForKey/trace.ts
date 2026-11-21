@@ -9,7 +9,7 @@
  * Each active call is an entry on `stack`, outermost first, naming its
  * `box` and loop variable `item` by the Item's `uid`.
  */
-import source from "@repo/python-master/03/08_look_for_key.py?raw";
+import source from "@sources/python-master/03/08_look_for_key.py?raw";
 import type { KeyedLists } from "../../../core/keyedLists";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";

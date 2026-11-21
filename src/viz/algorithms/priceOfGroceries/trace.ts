@@ -7,7 +7,7 @@
  * filling up (in Python the name `book` is bound once the literal is done).
  * The print uses Python's dict repr, with `float` prices.
  */
-import source from "@repo/python-master/05/01_price_of_groceries.py?raw";
+import source from "@sources/python-master/05/01_price_of_groceries.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 import { pyDictRepr, pyFloat } from "../../../core/python";

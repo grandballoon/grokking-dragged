@@ -1,7 +1,7 @@
 # Grokking, dragged
 
-Visual, draggable re-implementations of the Python in this repo, built on [Dragology](https://declarative-dragging.github.io/), the library from _Declarative Dragging_ by Horowitz, Blinn and Heer.
-It covers the book chapters in [`python-master/`](../python-master) and the data structures in [`grokking_data_structures-main/python/`](../grokking_data_structures-main/python).
+Visual, draggable re-implementations of the Python from the Grokking books, built on [Dragology](https://declarative-dragging.github.io/), the library from _Declarative Dragging_ by Horowitz, Blinn and Heer.
+It covers the book chapters in [`sources/python-master/`](sources/python-master) and the data structures in [`sources/grokking_data_structures-main/python/`](sources/grokking_data_structures-main/python).
 
 ```bash
 cd visual
@@ -42,7 +42,7 @@ A visualization lives in its own folder, `src/viz/<book>/<name>/`, with three fi
 
 ### `trace.ts`: the port
 
-- Import the original Python file with `?raw` (via `@repo/...`, or the shared module `src/viz/dataStructures/sources.ts`) and wrap it with `pythonSource`.
+- Import the original Python file with `?raw` (via `@sources/...`, or the shared module `src/viz/dataStructures/sources.ts`) and wrap it with `pythonSource`.
   The code panel shows this text, so never copy or edit the Python.
 - Export `run(input): Frame<Vars>[]`.
   It must be a pure function of `input`.

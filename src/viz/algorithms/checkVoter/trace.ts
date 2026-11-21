@@ -7,7 +7,7 @@
  * `check_voter` with. `call` is the one addition: which of those calls is
  * running, so a drawing can point at it.
  */
-import source from "@repo/python-master/05/02_check_voter.py?raw";
+import source from "@sources/python-master/05/02_check_voter.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 

@@ -8,7 +8,7 @@
  * `finished`, so a drawing can keep showing the whole recursion tree.
  */
 import { pyRepr } from "../../../core/python";
-import source from "@repo/python-master/04/05_quicksort.py?raw";
+import source from "@sources/python-master/04/05_quicksort.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 

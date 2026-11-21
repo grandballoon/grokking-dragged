@@ -2,18 +2,16 @@ import react from "@vitejs/plugin-react";
 import { fileURLToPath } from "node:url";
 import { defineConfig } from "vitest/config";
 
-// The Python sources this app visualizes live one level up, in the repo
-// itself. They are imported verbatim with `?raw`, so the dev server must be
-// allowed to read them.
-const repoRoot = fileURLToPath(new URL("..", import.meta.url));
+// The Python this app visualizes is vendored in `sources/` and imported
+// verbatim with `?raw`, so a clean checkout can build on its own.
+const sourcesRoot = fileURLToPath(new URL("./sources", import.meta.url));
 
 export default defineConfig({
+  // Relative asset URLs let the build work under a GitHub Pages project path.
+  base: "./",
   plugins: [react()],
   resolve: {
-    alias: { "@repo": repoRoot },
-  },
-  server: {
-    fs: { allow: [repoRoot] },
+    alias: { "@sources": sourcesRoot },
   },
   build: {
     rolldownOptions: {

@@ -7,7 +7,7 @@
  * the same way, and `readsAt` (in `dpTable/dp.ts`) reports the cell
  * actually read.
  */
-import source from "@repo/python-master/11/02_longest_common_substring.py?raw";
+import source from "@sources/python-master/11/02_longest_common_substring.py?raw";
 import { pyIndex } from "../../../core/python";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";

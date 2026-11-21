@@ -5,7 +5,7 @@
  * `stack` (outermost first) while it runs, and `greet` sits paused beneath
  * them until they return. What the program prints goes in `stdout`.
  */
-import source from "@repo/python-master/03/02_greet.py?raw";
+import source from "@sources/python-master/03/02_greet.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 import type { Known } from "../kit/linearCalls";

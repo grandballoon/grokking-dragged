@@ -16,7 +16,7 @@
     "isolatedModules": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "paths": { "@repo/*": ["../*"] }
+    "paths": { "@sources/*": ["./sources/*"] }
   },
   "include": ["src"]
 }

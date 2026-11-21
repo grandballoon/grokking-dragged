@@ -6,7 +6,7 @@
  * `x == 1`, then the products flow back down it. Each active call is an
  * entry on `stack`, outermost first.
  */
-import source from "@repo/python-master/03/03_factorial.py?raw";
+import source from "@sources/python-master/03/03_factorial.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 import type { Known } from "../kit/linearCalls";

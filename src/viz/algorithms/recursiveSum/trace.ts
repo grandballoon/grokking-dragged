@@ -7,7 +7,7 @@
  * one entry per active call, outermost first.
  */
 import { pyRepr } from "../../../core/python";
-import source from "@repo/python-master/04/02_recursive_sum.py?raw";
+import source from "@sources/python-master/04/02_recursive_sum.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 

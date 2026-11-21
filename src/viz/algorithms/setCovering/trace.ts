@@ -9,7 +9,7 @@
  * Python prints sets in hash order, which changes from run to run; the port
  * prints them in insertion order instead.
  */
-import source from "@repo/python-master/10/01_set_covering.py?raw";
+import source from "@sources/python-master/10/01_set_covering.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 import { dictPop, pyRepr } from "../../../core/python";

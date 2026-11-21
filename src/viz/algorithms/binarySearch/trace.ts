@@ -8,7 +8,7 @@
  * the file too, but the script never calls it (chapter 3 has its own page
  * for recursive binary search).
  */
-import source from "@repo/python-master/01/02/binary_search.py?raw";
+import source from "@sources/python-master/01/02/binary_search.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 import { floorDiv, pyPrint, pyRepr } from "../../../core/python";

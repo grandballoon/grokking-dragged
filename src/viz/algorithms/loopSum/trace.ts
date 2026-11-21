@@ -7,7 +7,7 @@
  * came from when values repeat.
  */
 import { pyRepr } from "../../../core/python";
-import source from "@repo/python-master/04/01_loop_sum.py?raw";
+import source from "@sources/python-master/04/01_loop_sum.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 

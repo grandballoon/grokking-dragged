@@ -8,7 +8,7 @@
  * script, an edge may point back at "start" here, since `distances` has a
  * key for every vertex.
  */
-import source from "@repo/python-master/09/01_dijkstras_algorithm_pq.py?raw";
+import source from "@sources/python-master/09/01_dijkstras_algorithm_pq.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 import { BOOK_EDGES, toGraph, type Edges } from "../weightedGraph/graph";

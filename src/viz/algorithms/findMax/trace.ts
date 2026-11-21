@@ -9,7 +9,7 @@
  * The file defines `find_max` but never calls it, so this page calls it on
  * an input list of its own (`[2, 8, 3, 5]` to start with).
  */
-import source from "@repo/python-master/03/06_find_max.py?raw";
+import source from "@sources/python-master/03/06_find_max.py?raw";
 import { pythonSource } from "../../../core/pythonSource";
 import { recorder, type Frame } from "../../../core/trace";
 import type { Known } from "../kit/linearCalls";
